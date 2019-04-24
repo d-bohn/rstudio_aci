@@ -9,6 +9,7 @@ PASSWORD=acitest
 URL=localhost
 PORT=8787
 ROOT=true
+www-address=127.0.0.1
 
 %post
 #ACI mappings so you can access your files.
