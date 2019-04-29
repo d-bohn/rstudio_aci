@@ -11,7 +11,7 @@ URL=localhost
 PORT=8787
 ROOT=true
 www-address=127.0.0.1
-export PASSWORD URL PORT ROOT www-address
+export PASSWORD URL PORT ROOT
 
 %post
 #ACI mappings so you can access your files.
