@@ -1,5 +1,5 @@
 BOOTSTRAP: docker
-FROM: d-bohn/rstudio_aci
+FROM: dalbohn/rstudio_aci
 
 %labels
 MAINTAINER Daniel Albohn <d.albohn@gmail.com>
