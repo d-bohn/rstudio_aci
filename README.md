@@ -13,7 +13,7 @@ ssh USERID@aci-b.aci.ics.psu.edu -X -Y
 Start an interactive session using `qsub`.
 
 ```
-qsub -I -X -A open -l nodes=1:ppn=2 -l walltime=4:00:00
+qsub -A open -I -X -l walltime=24:00:00 -l nodes=2:ppn=20 -l pmem=10gb
 ```
 
 From ACI, start `screen` and then execute the following code to
