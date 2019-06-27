@@ -3,7 +3,7 @@ FROM: dalbohn/rstudio_aci
 
 %labels
 MAINTAINER Daniel Albohn <d.albohn@gmail.com>
-VERSION v1.1
+VERSION v1.2
 
 %post
 # ACI mappings so you can access your files.
