@@ -24,7 +24,7 @@ screen
 
 singularity pull -n rstudio_aci.simg shub://d-bohn/rstudio_aci
 
-singularity exec -n rstudio_aci.simg --www-address=127.0.0.1
+singularity exec rstudio_aci.simg rserver --www-address=127.0.0.1
 ```
 
 Next, press `CTRL+A+D` to detach the screen while allowing the process to continue running in the background.
